@@ -1,0 +1,1 @@
+export default function UsersPage(){return <div className="grid"><div><h1>Users</h1><p className="muted">Basic users list placeholder.</p></div><table className="table"><thead><tr><th>Name</th><th>Email</th><th>Role</th></tr></thead><tbody><tr><td>Admin User</td><td>admin@codcrm.local</td><td>admin</td></tr></tbody></table></div>;}

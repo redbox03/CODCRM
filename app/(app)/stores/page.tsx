@@ -1,0 +1,1 @@
+export default function StoresPage(){return <div className="grid"><div><h1>Stores</h1><p className="muted">Basic stores list placeholder.</p></div><table className="table"><thead><tr><th>Store</th><th>Code</th><th>Status</th></tr></thead><tbody><tr><td>Unikhome</td><td>UNIKHOME</td><td>Active</td></tr></tbody></table></div>;}

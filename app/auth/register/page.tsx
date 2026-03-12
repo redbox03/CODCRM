@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function RegisterPage(){return <main className="auth-shell"><div className="card" style={{width:420}}><h1>Register</h1><form className="form" style={{marginTop:16}}><input className="input" placeholder="Full name"/><input className="input" placeholder="Email" type="email"/><input className="input" placeholder="Password" type="password"/><button className="button" type="button">Create account</button></form><p className="muted" style={{marginTop:16}}>Already have an account? <Link href="/auth/login">Login</Link></p></div></main>;}

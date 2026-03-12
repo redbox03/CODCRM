@@ -1,0 +1,1 @@
+export default function TeamsPage(){return <div className="grid"><div><h1>Teams</h1><p className="muted">Basic teams list placeholder.</p></div><table className="table"><thead><tr><th>Name</th><th>Lead</th><th>Type</th></tr></thead><tbody><tr><td>Operations</td><td>Team Lead</td><td>call_center</td></tr></tbody></table></div>;}

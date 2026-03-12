@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function LoginPage(){return <main className="auth-shell"><div className="card" style={{width:420}}><h1>Login</h1><form className="form" style={{marginTop:16}}><input className="input" placeholder="Email" type="email"/><input className="input" placeholder="Password" type="password"/><button className="button" type="button">Sign in</button></form><p className="muted" style={{marginTop:16}}>No account? <Link href="/auth/register">Register</Link></p></div></main>;}
